@@ -11,7 +11,7 @@
             <ComboBoxItem FontWeight="Bold">da Binario a Decimale</ComboBoxItem>
             <ComboBoxItem FontWeight="Bold">da Decimale a Binario</ComboBoxItem>
         </ComboBox>
-        <TextBox Name="txtValore" HorizontalAlignment="Left" Height="60" Margin="345,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="205"/>
+        <TextBox Name="txtValore" FontSize="20" HorizontalAlignment="Left" Height="60" Margin="345,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="205"/>
         <Label Content="Inserisci il valore qui" HorizontalAlignment="Left" Margin="345,64,0,0" VerticalAlignment="Top" Width="205" Height="46" FontSize="20" FontWeight="Bold"/>
         <Label Content="Scegli la base :" HorizontalAlignment="Left" Margin="70,64,0,0" VerticalAlignment="Top" Width="205" Height="41" FontSize="20" FontWeight="Bold"/>
         <Button Content="Converti" HorizontalAlignment="Left" Margin="345,200,0,0" VerticalAlignment="Top" Width="205" Height="60" FontSize="24" FontWeight="Bold" Click="Button_Click"/>

@@ -38,7 +38,7 @@ namespace DecimaleBinario
                 int numero = int.Parse(valore);
                 risultato = Convert.ToString(numero, 2);
             }
-            txtRisultato.Content = risultato;
+            txtRisultato.Content = $"Il risultato è {risultato}";
         }
     }
 }
